@@ -30,7 +30,7 @@ public class ArrayInJava {
 		System.out.println("/////////////////////////");
 		
 		for (int i = 0; i < sss.length; i++) {
-			System.out.println(sss[i]);
+			System.out.println(i + ":" + sss[i]);
 		}
 		
 		System.out.println("/////////////////////////");

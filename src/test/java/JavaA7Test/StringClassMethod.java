@@ -35,15 +35,22 @@ public class StringClassMethod {
 		
 		System.out.println(c1.equalsIgnoreCase(c2));
 		
-		System.out.println(c1.split("Codemind Techanology"));
+		String arr[]=c1.split("to");
 		
-		System.out.println(c1.split(c2, 0));
+		for(String cz : arr) {
+		System.out.println(cz + " : split to");
+		}
+		
+		String arr1[]=c1.split("od", 2);
+				
+		for(String cd : arr1)
+		System.out.println(cd + " : split od");
 		
 		System.out.println(c1.indexOf('m'));
 		
 		System.out.println(c2.indexOf('o', 9));
 		
-		System.out.println(c1.indexOf("Codemind"));
+		System.out.println(c1.indexOf("odemind"));
 		
 		System.out.println(c1.indexOf("Tech", 0));
 		
@@ -53,7 +60,12 @@ public class StringClassMethod {
 		
 		System.out.println("   Codemind    ".trim());
 		
-		System.out.println(c1.valueOf(3));
+		System.out.println();
+		
+		int o = 123;
+		
+		String s1 = String.valueOf(o);
+		System.out.println(s1.length());
 	}
 
 }

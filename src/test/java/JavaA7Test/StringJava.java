@@ -44,5 +44,6 @@ public class StringJava {
 		
 		System.out.println(Namedd);				
 		System.out.println(Named);
+		System.out.println(Namee);
 	}
 }

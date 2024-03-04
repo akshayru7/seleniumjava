@@ -1,6 +1,6 @@
 package JavaA7Test;
 
-public class BeanClass {
+public class ExceptionInJava {
 
 	public static void main(String[] args) {
 

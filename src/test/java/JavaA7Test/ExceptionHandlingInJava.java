@@ -6,7 +6,7 @@ public class ExceptionHandlingInJava {
 	int AccountDebitAmount;
 	
 	public ExceptionHandlingInJava (int AccountBalance, int AccountDebitAmount) {
-		System.out.println("Withdraw Money");
+		System.out.println ("Withdraw Money");
 	}
 	
 	public int fetchmoney (int a, int b) {

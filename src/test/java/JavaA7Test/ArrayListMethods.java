@@ -1,6 +1,7 @@
 package JavaA7Test;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListMethods {
 
@@ -22,13 +23,38 @@ public class ArrayListMethods {
 			System.out.println(i);
 		}
 		
-		arrayList1.removeAll(arrayList);
+		//System.out.println(arrayList1.removeAll(arrayList));
+		
+		//System.out.println( "element always contain " + arrayList1.removeAll(arrayList));
+		
+		//arrayList1.clear();
 		
 		System.out.println("     ");
 		
 		for (int i = 0; i<arrayList1.size(); i++) {
-			System.out.println(i);
+			System.out.println(arrayList1.get(i));
 		}
+		
+		System.out.println("Size of arrayList2 : " + arrayList.size());
+		
+		System.out.println("Object Available in only arrayList is : " + arrayList.contains(20));
+		
+		System.out.println("List is Empty : " + arrayList.isEmpty());
+		
+		arrayList.clear();
+		
+		System.out.println("List is Empty : " + arrayList.isEmpty());
+		
+		System.out.println("      ");
+		
+		Iterator<Integer> it = arrayList1.iterator();
+		
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		System.out.println("      ");
+		
+		System.out.println(arrayList1.get(3));
 	}
-
 }

@@ -50,4 +50,3 @@ public class LinkedHashSetMethods {
 		System.out.println("Size of linkedhashset = " + linkedhashset.size());
 	}
 }
-

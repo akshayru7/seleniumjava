@@ -12,6 +12,7 @@ public class ArrayListMethods {
 		arrayList.add(1);
 		arrayList.add(20);
 		arrayList.add(0);
+		arrayList.add(1);
 		
 		ArrayList<Integer> arrayList1 = new ArrayList<Integer>();		
 		arrayList1.addAll(arrayList);

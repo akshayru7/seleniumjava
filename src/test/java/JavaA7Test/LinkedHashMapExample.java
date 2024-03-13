@@ -43,7 +43,7 @@ public class LinkedHashMapExample {
 		System.out.println("Size of linkedhashMap = " + linkedhashMap.size());
 		
 		System.out.println("    ");
-		
+	
 		linkedhashMap.remove("MH45AD4321");
 		
 		Set<Entry<String, String>> sets = linkedhashMap.entrySet();

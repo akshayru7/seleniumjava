@@ -6,7 +6,7 @@ public class ArrayInJava {
 		// TODO Auto-generated method stub
 
 		//array declaration
-		String ss[];
+		String ss2[];
 	
 		// declaration with initialization
 		String sss[] = new String[4];

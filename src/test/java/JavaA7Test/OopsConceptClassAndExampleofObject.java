@@ -2,7 +2,7 @@ package JavaA7Test;
 
 class dog {
 	
-    //propertise, data member, member variables, attributes 
+    //object propertise, data member, member variables, attributes 
 	
 	String Name = "Dog";
 	String Breed = "German Shaffered";
@@ -11,7 +11,7 @@ class dog {
 	float weight = 15.7f;
 	float Height = 1.9f;
 	
-	 //member function or method or behavior
+	 //object member function or method or behavior
 	
 	public float running () {
 		
@@ -124,5 +124,4 @@ public class OopsConceptClassAndExampleofObject {
 		System.out.println(ba.fundtransfer());
 		System.out.println(ba.atm());
 	}
-
 }

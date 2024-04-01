@@ -20,5 +20,4 @@ public class ArrayAsceAndDesc {
 		System.out.println(d);
 		}
 	}
-
 }

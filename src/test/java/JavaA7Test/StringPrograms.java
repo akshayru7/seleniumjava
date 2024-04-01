@@ -15,7 +15,7 @@ public class StringPrograms {
 	
 		String arr[] = Car.split(" ");
 		
-		String C2 = "";
+		String C2 = " ";
 		
 		for (String C3 : arr) {
 			for(int i = 0; i<(C3.length()); i++) {

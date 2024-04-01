@@ -6,12 +6,12 @@ public class Polymorphism {
 		
 		// we are able to performing same thing in different or multiple ways
 		
-		// compile time polyorphism/early binding : overloading is example of early binding :- if a single class 
+		// compile time polymorphism/early binding : overloading is example of early binding :- if a single class 
 				// or parent child relation class having multiple method with same name but with 
 				//different number or type of parameter/argument
 				// method name must be same, we must have different number or type of argument, 
 				//method return type may be same or different 
-					//increase readibilty of code.
+					//increase readability of code.
 		// runtime polymorphism/late binding : overriding exaple of late binding :- if we are having same signature method 
 				//in parent child class.
 				// for overriding method we must have parent child reation in two classes

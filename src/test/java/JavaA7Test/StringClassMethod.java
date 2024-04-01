@@ -33,6 +33,8 @@ public class StringClassMethod {
 		
 		System.out.println(c1.replace(c1, c2));
 		
+		System.out.println(c1.replaceAll("[^a-z]", ""));
+		
 		System.out.println(c1.equalsIgnoreCase(c2));
 		
 		String arr[]=c1.split("to");
@@ -58,7 +60,7 @@ public class StringClassMethod {
 		
 		System.out.println(c1.toUpperCase());
 		
-		System.out.println("   Codemind    ".trim());
+		System.out.println("   Codemind     ".trim());
 		
 		System.out.println();
 		
@@ -67,5 +69,4 @@ public class StringClassMethod {
 		String s1 = String.valueOf(o);
 		System.out.println(s1.length());
 	}
-
 }

@@ -50,11 +50,6 @@ public class HashMapAssendingAndDescendingElementOrder {
 			System.out.println(g.getKey() + " = " + g.getValue());
 		}
 		
-		
-		
-		
-		
-		
 //		NavigableMap<Integer, String> asc = treemap.descendingMap();
 //		
 //		for (Integer i : asc) {

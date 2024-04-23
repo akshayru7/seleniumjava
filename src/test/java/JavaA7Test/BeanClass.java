@@ -17,7 +17,7 @@ public class BeanClass {
 
 class Test {
 	
-	int a;
+	private int a;
 	
 	public int getA() {
 		return a;
@@ -30,7 +30,7 @@ class Test {
 
 class Test1 {
 	 
-	int b;
+	private int b;
 	 
 	public int getB() {
 		return b;

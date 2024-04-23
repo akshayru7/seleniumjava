@@ -6,7 +6,8 @@ public class Abtraction {
 		// TODO Auto-generated method stub
 
 		ad r = new ad(10);
-		r.sub(1, 04);	
+		r.sub(1, 04);
+		r.add(1);
 	}
 }
 
@@ -14,7 +15,7 @@ abstract class queue {
 	
 	public abstract void sub (int a, int b);
 	
-	public void sub (int a) {
+	public void add (int a) {
 		System.out.println(1);
 	}
 	

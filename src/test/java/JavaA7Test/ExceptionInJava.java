@@ -8,16 +8,16 @@ public class ExceptionInJava {
 		t.setA(20);
 		System.out.println(t.getA());
 		
-		int result = 10/0;
-		Test1 t1 = new Test1();
-		t1.setB(5000);
-		System.out.println(t1.getB());
+//		int result = 10/0;
+		t.setB(5000);
+		System.out.println(t.getB());
 	}
 }
 
 class Test {
 	
-	int a;
+	private int a;
+	private int b;
 	
 	public int getA() {
 		return a;
@@ -26,11 +26,6 @@ class Test {
 	public void setA(int a) {
 		this.a = a;
 	}	
-}
-
-class Test1 {
-	 
-	int b;
 	 
 	public int getB() {
 		return b;

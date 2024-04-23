@@ -24,6 +24,8 @@ interface fundtransfer {
 
 class Fund implements fundtransfer {
 	
+	int amount1 = 200;
+	
 	public void IMPS (int account, int amount) {
 		System.out.println("Fund transfer via IMPS :" + account + ":" + amount1);
 	}

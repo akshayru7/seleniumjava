@@ -22,6 +22,7 @@ public class HowToHandleDropdownnotCommingUnderSelectTag {
 		
 		HowToHandleDropdownnotCommingUnderSelectTag.selectCountry("UK");
 		HowToHandleDropdownnotCommingUnderSelectTag.selectCountry("Singapore");
+		HowToHandleDropdownnotCommingUnderSelectTag.selectCountry("Sri lanka");
 	}
 	
 	public static void selectCountry(String countryname) {

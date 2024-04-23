@@ -1,17 +1,22 @@
 package selenium.practice.automation.testing;
 
 import java.time.Duration;
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 //import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SingleSelectDropdownCommingUnderSelectTag {
 
+	@Test(description = "main")
 	public static void main(String[] args) {
 		
 		//WebDriverManager.chromedriver().setup();
@@ -25,11 +30,16 @@ public class SingleSelectDropdownCommingUnderSelectTag {
 		WebElement singleselectDropdown = driver.findElement(By.xpath("//select[@id='drop1']"));
 		Select select = new Select(singleselectDropdown);
 		
+		List<String> Expectedselectresult = Arrays.asList("");
+		
 		List<WebElement> allselectedoptionsfromDropdown = select.getAllSelectedOptions();
+		List<String> Actualselectresult = new LinkedList<>();
 		
 		for (WebElement alloption : allselectedoptionsfromDropdown) {
-			System.out.println(alloption.getText());
+			 Actualselectresult.add(alloption.getText());
 		}
+		
+		Assert.assertEquals(Actualselectresult, Expectedselectresult);
 		
 		WebElement firstSelectedOption= select.getFirstSelectedOption();
 		System.out.println(firstSelectedOption.getText());
